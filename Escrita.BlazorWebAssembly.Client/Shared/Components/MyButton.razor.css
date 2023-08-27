@@ -1,0 +1,43 @@
+﻿button {
+    margin: 10px;
+    border: #000 solid 2px;
+    transition: .5s;
+}
+    button:hover {
+        border: #79BAC1 solid 2px;
+    }
+
+
+    .background-F1F3F4 {
+        background-color: #F1F3F4;
+    }
+
+.background-79BAC1 {
+    background-color: #79BAC1;
+}
+
+
+.background-2A7886 {
+    background-color: #2A7886;
+}
+
+
+.background-021519 {
+    background-color: #021519;
+}
+
+
+.text-color-2A7886 {
+    color: #2A7886;
+}
+
+
+.button-rignt{
+    align-self:flex-end;
+}
+
+
+.icon-size-30px {
+    width: 30px;
+    height: 30px;
+}

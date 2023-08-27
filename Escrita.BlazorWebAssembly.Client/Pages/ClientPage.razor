@@ -1,0 +1,175 @@
+﻿@page "/clients"
+
+<section>
+
+    <h3 class="text-center">Clientes</h3>
+    
+    <form class="border" method="get">
+        <div class="display-flex" style="">
+
+            <MyInput 
+                DisabledComponent="false" 
+                OiIcon="textarea-t" 
+                Title="Nome" 
+                Type="text"
+                Name="SetName"
+                Id="SetName"/>
+        
+            <MyInput 
+                DisabledComponent="false"
+                OiIcon="123" 
+                Title="CPF/CNPJ" 
+                Type="number"
+                Name="SetCpfCnpj"
+                Id="SetCpfCnpj"/>
+            
+            <MyInput 
+                DisabledComponent="false"
+                OiIcon="phone" 
+                Title="Celular" 
+                Type="number"
+                Name="SetCellphone"
+                Id="SetCellphone"/>
+            
+            <MyInput 
+                DisabledComponent="false"
+                OiIcon="telephone" 
+                Title="Tel. Fixo" 
+                Type="number"
+                Name="SetTelephone"
+                Id="SetTelephone"/>
+            
+                <MyInput 
+                DisabledComponent="false"
+                OiIcon="calendar-week" 
+                Title="Data Nasc." 
+                Type="date"
+                Name="SetTelephone"
+                Id="SetTelephone"/>
+    
+        </div>
+        <div class="display-flex fex-direction-column flex-align-right">
+
+            <MyButton 
+                Id="SetSearch"
+                Name="SetSearch"
+                Title="Pesquisar"
+                BiIcon="search"/>
+
+        </div>
+    </form>
+    <div class="border mt-2 h-25" style="overflow-x:auto;overflow-y:auto;max-height:440px;" >
+
+        <table class=" " >
+            <tr>
+                <th class="text-center">Nome</th>
+                <th class="text-center">CPF/CNPJ</th>
+                <th class="text-center">Celular</th>
+                <th class="text-center">Tel. Fixo</th>
+                <th class="text-center">Ativo</th>
+                <th class="text-center">Ações</th>
+            </tr>
+            <tr>
+                <td>Gustavo Gonçalves e Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:green;" data-icon="bi:hand-thumbs-up"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" />
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr> 
+            <tr>
+                <td>Maria de Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:red;" data-icon="bi:hand-thumbs-down"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr>
+             <tr>
+                <td>Gustavo Gonçalves e Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:green;" data-icon="bi:hand-thumbs-up"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr> 
+            <tr>
+                <td>Maria de Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:red;" data-icon="bi:hand-thumbs-down"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr>
+             <tr>
+                <td>Gustavo Gonçalves e Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:green;" data-icon="bi:hand-thumbs-up"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr> 
+            <tr>
+                <td>Maria de Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:red;" data-icon="bi:hand-thumbs-down"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr>
+             <tr>
+                <td>Gustavo Gonçalves e Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:green;" data-icon="bi:hand-thumbs-up"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr> 
+            <tr>
+                <td>Maria de Souza</td>
+                <td>000.000.000-00</td>
+                <td>(00) 0 0000-0000</td>
+                <td>(00) 0000-0000</td>
+                <td class="text-center"><span class="iconify" style="color:red;" data-icon="bi:hand-thumbs-down"/></td>
+                <td class="text-center">
+                    <MyButton BiIcon="pen" Title=""/>
+                    <MyButton BiIcon="file-excel" Title=""/>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+
+
+@code {
+    private string _nome;
+
+    private void GetClients()
+    {
+       
+    }
+}

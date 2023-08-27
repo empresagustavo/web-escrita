@@ -1,0 +1,25 @@
+﻿<button class="btn background-F1F3F4 button-rignt"
+        type="button">
+    <span 
+        class="iconify text-color-2A7886 icon-size-30px" 
+        data-icon="bi:@BiIcon" />
+    @Title
+</button>
+
+
+@code {
+    #region PARAMs
+    [Parameter]
+    public string? Id { get; set; }
+
+    [Parameter]
+    public string? Name { get; set; }
+
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public string? BiIcon { get; set; }
+
+    #endregion
+}

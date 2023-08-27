@@ -1,0 +1,47 @@
+﻿.content {
+    margin: 0 10px 0 10px;
+}
+
+.container-input {
+    border-radius: 5px;
+    border: 2px solid #021519;
+    padding: 0.3em;
+    display: flex;
+    transition: .5s;
+}
+
+    .container-input:hover {
+        border: 2px solid #79BAC1;
+        /*box-shadow: #021519 1px 2px 5px;*/
+    }
+
+
+.box-input {
+    margin-left: 5px;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+    .box-input:focus {
+        border: none;
+        outline: none;
+    }
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.text-color-2A7886 {
+    color: #2A7886;
+}
+
+
+.icon-size-30px {
+    width: 30px;
+    height: 30px;
+}

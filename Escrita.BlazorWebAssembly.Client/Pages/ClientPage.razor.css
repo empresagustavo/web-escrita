@@ -1,0 +1,48 @@
+﻿.display-flex {
+    display: flex;
+}
+
+.fex-direction-column {
+    flex-direction: column
+}
+
+.fex-direction-row {
+    flex-direction: row
+}
+
+.flex-align-right {
+    align-items: end;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #F1F3F4;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    top: 0;
+    position: sticky;
+    background: #79BAC1;
+    color: #000;
+}
+
+tr:hover {
+    background-color: #F1F3F4;
+}
+
+
+/*tr:nth-child(even), tr:hover {
+    background-color: #F1F3F4
+}*/

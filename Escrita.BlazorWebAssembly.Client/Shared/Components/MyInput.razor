@@ -1,0 +1,52 @@
+﻿<div class="content">
+    <label>@Title</label>
+    <div class="container-input">
+        <span 
+            class="ms-lg-1 icon-size-30px iconify text-color-2A7886"
+            data-icon="bi:@OiIcon" />
+        <input 
+            class="box-input" 
+            disabled="@SetDisabledComponent()"
+            placeholder="@Title"
+            value="@Value"
+            name="@Name" 
+            type="@Type" 
+            id="@Id"/>
+    </div>
+</div>
+
+@code {
+    #region PARAMs
+    [Parameter]
+    public string? Id { get; set; }
+
+    [Parameter]
+    public string? Name { get; set; }
+
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public string? OiIcon { get; set; }
+
+    [Parameter]
+    public string? Type { get; set; }
+
+    [Parameter]
+    public bool DisabledComponent { get; set; }
+
+    [Parameter]
+    public string? Value { get; set; }
+
+    #endregion
+
+
+    private string SetDisabledComponent()
+    {
+        return DisabledComponent ? "disabled" : null;
+    }
+
+    private void SetValue(object? obj)
+    {
+    }
+}
